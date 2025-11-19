@@ -1,0 +1,173 @@
+::-webkit-scrollbar {
+
+  display: none;
+
+}
+
+.selector-for-some-widget {
+
+  box-sizing: content-box;
+
+}
+
+body {
+
+  background-color: rgb(255, 255, 255);
+
+  padding: 0px;
+
+  margin: 0px;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+.jumbotron {
+
+  padding-top: 6rem;
+
+}
+
+#about {
+
+  background-color: #ffffff;
+
+}
+
+#produk {
+
+  background-color: #ffffff;
+
+}
+
+.card {
+
+  position: relative;
+  overflow: hidden;
+
+}
+
+.img-title {
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: rgba(5, 5, 5, 0.7);
+
+  top: 300px;
+
+  transition: all 0.5s ease-in;
+
+}
+
+.img-title p,
+
+h3 {
+
+  line-height: 20px;
+
+  position: relative;
+
+  top: 130px;
+
+  text-shadow: rgba(5, 5, 5, 0.5);
+
+}
+
+.card:hover .img-title {
+
+  top: 0;
+
+  transition: all 0.5s ease-out;
+  
+
+}
+
+.card img {
+
+  transform: scale(1);
+
+  transition: all 0.3s ease-out;
+
+}
+
+.card:hover img {
+
+  transform: scale(1.1);
+
+  transition: all 0.3s ease-in;
+
+}
+
+
+section {
+
+  padding-top: 10rem;
+
+}
+
+footer {
+  text-align: center;
+}
+
+.wa-float {
+  position: fixed;
+  width: 65px;
+  height: 65px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgb(0, 255, 255);
+  z-index: 999;
+}
+
+.wa-logo {
+  width: 38px;
+  height: 38px;
+}
+
+.alamat-container {
+    text-align: center;
+    padding: 30px 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    box-shadow: 0 4px 12px rgb(0, 255, 255);
+}
+
+.alamat-container h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.alamat-container p {
+    color:      #000000;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.btn-maps {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #00f7ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn-maps:hover {
+    background: #00ff88;
+}
